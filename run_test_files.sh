@@ -30,11 +30,11 @@ for filename in *test*.cpp; do
     #get the name of the executable we want to call it (remove the .cpp extension)
     file=$(echo "$filename" | cut -f 1 -d '.');
     #compile into an executable (use makefile if available due to dependencies)
-	#g++ $filename -o $file;
+    #g++ $filename -o $file;
     #give executable permission
     chmod +x $file;
     #get the exit status of running the executable
-	VAR=$(~/../../usr/bin/timeout $1 ./$file)$?
+    VAR=$(~/../../usr/bin/timeout $1 ./$file)$?
     echo "running "$file"..."
 	case $VAR in
 	"0")
