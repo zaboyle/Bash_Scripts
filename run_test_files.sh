@@ -40,7 +40,7 @@ for filename in *test*.cpp; do
 	"0")
 		echo "PASSED"
 		;;
-    "1")
+    	"1")
 		echo "FAILED"
 		;;
 	"124")
