@@ -1,8 +1,0 @@
-{\n\t"version": "0.2.0",\n\t"configurations": [\n\t\t{
-\t\t\t"name": "(gdb) Launch",\n\t\t\t"type": "cppdbg",\n\t\t\t"request": "launch",
-\t\t\t"program": "${workspaceRoot}/.exe",\n\t\t\t"args": [\n\t\t\t\t"comma-separated-list-of-args-here"\n\t\t\t],
-\t\t\t"stopAtEntry": false,\n\t\t\t"cwd": "${workspaceFolder}",\n\t\t\t"environment": [],
-\t\t\t"externalConsole": true,\n\t\t\t"MIMode": "gdb",\n\t\t\t"miDebuggerPath": "C:/MinGW-CPTR-124/bin/gdb.exe",
-\t\t\t"preLaunchTask": "build .exe",\n\t\t\t"setupCommands": [\n\t\t\t\t{
-\t\t\t\t\t"description": "Enable pretty-printing for gdb",\n\t\t\t\t\t"text": "-enable-pretty-printing",
-\t\t\t\t\t"ignoreFailures": true\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t]\n}
