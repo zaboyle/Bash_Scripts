@@ -22,8 +22,8 @@
 #           <shortcut_name> <filename>
 #
 #IMPORTANT:
-# the debugging session must be done by opening the folder the .cpp file
-# is in. Do this via file->openFolder
+# A new VSC session will autmatically open with the current folder open,
+# so you can go straight to debugging!
 #
 #===========================================
 
@@ -68,5 +68,5 @@ echo "\t\t\t\t\"-g\",\n\t\t\t\t\"$FILE\",\n\t\t\t\t\"-o\",\n\t\t\t\t\"$EXECUTABL
 echo "\t\t\t\"group\": {\n\t\t\t\t\"kind\": \"build\",\n\t\t\t\t\"isDefault\": true\n\t\t\t}," >> $T
 echo "\t\t\t\"problemMatcher\": \"\$msCompile\"\n\t\t}\n\t]\n}" >> $T
 
-#open the folder to work on it
+#open the current folder to work on it
 code -n .
