@@ -15,7 +15,7 @@
 #    to create a shortcut for this script, insert the following into
 #    your .bashrc or .bash_profile files:
 #
-#           alias {shortcut_name}="sh {path/to/location/of/file}"
+#           alias <shortcut_name>="sh <path/to/location/of/file>"
 #
 #   if you have done this, you can now run the command as:
 #     
