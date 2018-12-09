@@ -15,7 +15,7 @@
 #    to create a shortcut for this script, insert the following into
 #    your .bashrc or .bash_profile files:
 #
-#           alias {shortcut_name}="sh {path/to/location/of/file}"
+#           alias <shortcut_name>="sh <path/to/location/of/file>"
 #
 #   if you have done this, you can now run the command as:
 #     
@@ -67,3 +67,6 @@ echo "\t\t\t\"type\": \"shell\",\n\t\t\t\"command\": \"$PATH_TO_GPP\",\n\t\t\t\"
 echo "\t\t\t\t\"-g\",\n\t\t\t\t\"$FILE\",\n\t\t\t\t\"-o\",\n\t\t\t\t\"$EXECUTABLE\"\n\t\t\t]," >> $T
 echo "\t\t\t\"group\": {\n\t\t\t\t\"kind\": \"build\",\n\t\t\t\t\"isDefault\": true\n\t\t\t}," >> $T
 echo "\t\t\t\"problemMatcher\": \"\$msCompile\"\n\t\t}\n\t]\n}" >> $T
+
+#open the folder to work on it
+code -n .
